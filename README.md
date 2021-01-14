@@ -1,6 +1,6 @@
 # Dev Transverse
 
-Ce document vise à définir un ensemble de guideline et de grands principes autour desquels nous retrouvé
+Ce document vise à définir un ensemble de guideline et de grands principes autour desquels nous retrouver
 pour travailler ensemble sur les projets. 
 
 Ils sont là pour nous simplifier la vie sur le long terme.
