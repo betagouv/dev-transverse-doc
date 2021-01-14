@@ -14,7 +14,7 @@ Quel est le processus pour travailler sur la tache ?
 6. on push, et on fait une pull request (peut être aussi fait au tout début - même si il n'y a aucune modif)
 7. si les test CI passent, faire sa propre relecture de code, en ajoutant les explications qui nous ont fait prendre des décisions (lien stackoverflow, documentation, ...) si besoin dans l'optique de la review pour éviter un aller retour inutile
 8. Pour les modifications apportées au front-end Web ou à l'application mobile, joindre des captures d'écran ou de courtes vidéos montrant l'application avant et après les modifications. (Cela simplifie la révision sans avoir à exécuter le code localement)
-9. demander une review à une ou plusieurs personne sur github (voir (#Process-de-review))
+9. demander une review à une ou plusieurs personne sur github (#Process-de-review)
 10. dès que la PR est prête, partagez la sur le channel publique du projet en pinguant le reviewer (ou sur #dinum-dev-transverse)
 11. review (voir ##  Process de review )
 12. le merge peut se faire selon le sujet au choix:
@@ -30,7 +30,7 @@ Quel est le processus pour travailler sur la tache ?
 - task/234-task-name : Refactoring ou modification d'une fonctionnalité existante
 - fix/125-fix-name : Correction d'un bug
     
-## Process de review 
+## Process de review
 
 ### Qui review
 Si la pull request est minime, typo, fix de documentation, on peut merge directement. On se fait confiance.
