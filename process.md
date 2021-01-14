@@ -1,6 +1,6 @@
 # Process
 Ce document vise à définir des guidelines pour travailler au mieux sur nos projets en commun.
-Ces guidelines sont là pour nous simplifier la vie sur le longtemps terme.
+Ces guidelines sont là pour nous simplifier la vie sur le long terme.
 
 ## Attribution d'une tache et PR 
 
