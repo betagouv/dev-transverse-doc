@@ -7,7 +7,7 @@ Ces guidelines sont là pour nous simplifier la vie sur le longtemps terme.
 Quel est le processus pour travailler sur la tache ?
 1. S'assurer que la tache est bien définie
 1. on s'assigne la tache (sur github/trello)
-2. on la déplace dans le board en `doing` (a voir quel outils utilisés)
+2. on la déplace dans le board en `doing` [voir outils board](#gestion-des-taches-:)
 3. on crée une branche (definir des conventions de nommage) - qu'on peut déjà pousser sur github même si toujours en brouillon (mettre en draft)
 4. on code (définir l'approche sur le refacto, le tdd)
 5. les tests en local doivent passer (TDD for the win)
@@ -68,7 +68,7 @@ Si des changements important sont faits, l'ideal est de reprendre le processus d
 - Ils ne voient aucune erreur évidente dans la mise en œuvre.
 - Ils trouvent le code facile à comprendre dans la mesure du possible.
 
-### Gestion des taches : 
+### Gestion des taches :
 
 Github projet, trello, ou autre selon le projet.
 On essaye de redécouper des taches en sous taches si le ticket propose divers changements avant de se lancer dessus.
