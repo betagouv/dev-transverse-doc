@@ -7,18 +7,19 @@ Ces guidelines sont là pour nous simplifier la vie sur le longtemps terme.
 Quel est le processus pour travailler sur la tache ?
 1. S'assurer que la tache est bien définie
 1. on s'assigne la tache (sur github/trello)
-2. on la déplace dans le board en doing (a voir quel outils utilisés)
+2. on la déplace dans le board en `doing` (a voir quel outils utilisés)
 3. on crée une branche (definir des conventions de nommage) - qu'on peut déjà pousser sur github même si toujours en brouillon (mettre en draft)
 4. on code (définir l'approche sur le refacto, le tdd)
 5. les tests en local doivent passer (TDD for the win)
 6. on push, et on fait une pull request (peut être aussi fait au tout début - même si il n'y a aucune modif)
 7. si les test CI passent, faire sa propre relecture de code, en ajoutant les explications qui nous ont fait prendre des décisions (lien stackoverflow, documentation, ...) si besoin dans l'optique de la review pour éviter un aller retour inutile
-8. Pour les modifications apportées au front-end Web ou à l'application mobile, joindre des captures d'écran ou de courtes vidéos montrant l'application avant et après les modifications.
-    (Cela simplifie la révision sans avoir à exécuter le code localement. Plus généralement, nous visons à fournir aux réviseurs les informations qui les aideront à effectuer un examen de qualité le plus rapidement possible.)
-9. on demande une review à une personne référente (définir dans un autre point qui est la personne référente)
-10. review (voir ##  Process de review )
-11. la personne qui a fait la PR, la merge une fois la PR validée. C'est elle qui résouds s'il y a un conflit, qui s'occupe de sa PR jusqu'au bout s'il y a des migrations avec la personne référente. (discuter avec la personne, pas de process particulier, poster la PR, ouvrir la PR en mode draft passer a ready to review plu)
-
+8. Pour les modifications apportées au front-end Web ou à l'application mobile, joindre des captures d'écran ou de courtes vidéos montrant l'application avant et après les modifications. (Cela simplifie la révision sans avoir à exécuter le code localement)
+9. demander une review à une ou plusieurs personne sur github (voir (#Process-de-review))
+10. dès que la PR est prête, partagez la sur le channel publique du projet en pinguant le reviewer (ou sur #dinum-dev-transverse)
+11. review (voir ##  Process de review )
+12. le merge peut se faire selon le sujet au choix:
+- Le reviewer peut merger directement, ou
+- ou il ping le `pull requester` ou un autre dev
     
 ### Lisibilité
 - utiliser le français pour les pull requests et l'anglais pour le code et les commentaires dans le code, pour la contribution au logiciel libre universel
