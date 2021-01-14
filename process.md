@@ -43,17 +43,18 @@ On peut ajouter:
 
 Le reviewer peut lui même demander une contre review, ou "passer" sa review, à une autre personne auquel cas il le mentionne sur la PR, et lui fait une request de review. 
 
-### Temps de reviews
+### Temps de review
 En terme de temps, la review devrait être faites dans le jour ouvré suivant la PR : 
 - dès que la PR est prête, partagez la sur le channel publique du projet en pinguant le reviewer (ou sur #dinum-dev-transverse)
 - Ne pas hésiter à pinger le reviewer si une demi journée s'est déjà écoulée. 
 - le reviewer peut assigner une autre personne si il ne peut pas respecter un délai respectable
     
-### Role du reviewers 
+### Role du reviewer 
 
+Le reviewer est là pour apporter un point de vue supplémentaire, jeter un oeil différents.
 Le reviewers peut fait des commentaires (facultatif), peut demander des changements, ou approuver la pull request.
 Le reviewers peut faire des commentaires mineurs, de simples suggestions, mais quand même approuver la pull request.
-Si des changements plus majeurs sont à faire, on reprends l'entièreté du processus de review.
+Si des changements important sont faits, l'ideal est de reprendre le processus de review.
 
 [Conférence sur la relecture de code](https://www.youtube.com/watch?v=vyFHWS8rtDg), qui est une vraie compétence qui s'apprend comme coder.
 
