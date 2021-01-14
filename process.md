@@ -1,5 +1,6 @@
 # Process
-
+Ce document vise à définir des guidelines pour travailler au mieux sur nos projets en commun.
+Ces guidelines sont là pour nous simplifier la vie sur le longtemps terme.
 
 ## Process Attribution d'une tache et PR 
 
@@ -30,21 +31,21 @@ Quel est le processus pour travailler sur la tache ?
     
 ## Process de review 
 
-On définit au moins un référent pour le projet. On s'attribue ça lors d'un point dev (quel est le meilleur moment) ? Et on peut éventuellement changer, si on se retrouve avec trop de review, on n'hésite pas a en discuter.
-
 ### Qui review
 Si la pull request est minime, typo, fix de documentation, on peut merge directement. On se fait confiance.
-Sinon: on attribue la tache à une des personnes référentes + 
-    - review design par un designer si travaille sur l'ux avec ce designer en amont,
-    - review falcultative a un autre dev (avec qui on a discuté du sujet, qui embarque sur le projet, ou qui souhaite d'avantage se l'approprier, ou autre, up to la personne qui fait la PR ?)
-     Si la PR est très important et inclus une complexité au moment du déploiement, (ie: grosse migration, ...) on peut suivre un processus plus particulier.
+
+Sinon: 
+
+on attribue la review à une ou plusieurs personnes dont au moins une qui connait bien le code projet.
+- review design par un designer si travaille sur l'ux avec ce designer en amont,
+- review falcultative a un autre dev (avec qui on a discuté du sujet, qui embarque sur le projet, ou qui souhaite d'avantage se l'approprier, ou autre, up to la personne qui fait la PR ?)
 
 Le reviewer peut lui même demander une contre review, ou "passer" sa review, à une autre personne auquel cas il le mentionne sur la PR, et lui fait une request de review. 
 
 ### Temps de reviews
 En terme de temps, la review devrait être faites dans le jour ouvré suivant la PR : 
     - dès que la PR est prête, partagez la sur le channel publique du projet en pinguant le reviewer (ou sur #dinum-dev-transverse)
-    - Ne pas hésiter à pinger le reviewer si une demi journée s'est déjà écoulé. 
+    - Ne pas hésiter à pinger le reviewer si une demi journée s'est déjà écoulée. 
     - le reviewer peut assigner une autre personne si il ne peut pas respecter un délai respectable
     
 ### Role du reviewers 
@@ -65,7 +66,6 @@ Si des changements plus majeurs sont à faire, on reprends l'entièreté du proc
 - Ils ne voient aucune erreur évidente dans la mise en œuvre.
 - Ils trouvent le code facile à comprendre dans la mesure du possible.
 - Ils pourraient enquêter sur les problèmes liés au code, si quelque chose ne va pas.
-
 
 ### Gestion des taches : 
 
